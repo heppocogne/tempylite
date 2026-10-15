@@ -1,6 +1,6 @@
 import pytest
 
-from tmpl import Template, TemplateError, TemplateSecurityError, TemplateSyntaxError
+from tempylite import Template, TemplateError, TemplateSecurityError, TemplateSyntaxError
 
 
 class Thing:

@@ -1,7 +1,7 @@
 import pytest
 
-from tmpl import TemplateSyntaxError
-from tmpl.lexer import BLOCK, TEXT, VAR, tokenize
+from tempylite import TemplateSyntaxError
+from tempylite.lexer import BLOCK, TEXT, VAR, tokenize
 
 
 def kinds(src, **kw):

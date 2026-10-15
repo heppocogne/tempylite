@@ -24,7 +24,7 @@
 ## 3. 公開 API
 
 ```python
-from tmpl import Template
+from tempylite import Template
 
 t = Template("Hello {{ name }}!", undefined="None")  # "None" | "" | "strict"
 t.render({"name": "YY"})        # -> "Hello YY!"
@@ -46,7 +46,7 @@ t.render(name="YY")             # キーワード引数でも可
 ### ディレクトリ構成
 
 ```
-tmpl/
+tempylite/
   __init__.py     # Template と例外を公開
   errors.py       # 例外クラス（lineno, col 付き）
   lexer.py        # トークン化

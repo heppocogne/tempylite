@@ -1,6 +1,6 @@
 import pytest
 
-from tmpl import (
+from tempylite import (
     Template, TemplateRuntimeError, TemplateSyntaxError, Undefined, UndefinedError,
 )
 

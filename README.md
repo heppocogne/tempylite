@@ -6,7 +6,7 @@
 ## 使い方
 
 ```python
-from tmpl import Template
+from tempylite import Template
 
 t = Template("Hello {{ name }}!", undefined="None")  # "None" | "" | "strict"
 t.render({"name": "YY"})   # -> "Hello YY!"

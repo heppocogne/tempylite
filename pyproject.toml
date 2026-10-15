@@ -9,7 +9,7 @@ description = "簡易的なテンプレートエンジン"
 requires-python = ">=3.9"
 
 [tool.setuptools]
-packages = ["tmpl"]
+packages = ["tempylite"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

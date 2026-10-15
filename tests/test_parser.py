@@ -1,10 +1,10 @@
 import pytest
 
-from tmpl import TemplateSyntaxError, TemplateSecurityError
-from tmpl.evaluator import Evaluator
-from tmpl.lexer import tokenize
-from tmpl.nodes import For, If, Text, Var
-from tmpl.parser import Parser
+from tempylite import TemplateSyntaxError, TemplateSecurityError
+from tempylite.evaluator import Evaluator
+from tempylite.lexer import tokenize
+from tempylite.nodes import For, If, Text, Var
+from tempylite.parser import Parser
 
 
 def parse(src):
