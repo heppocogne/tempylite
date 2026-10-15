@@ -7,6 +7,10 @@ name = "tempylite"
 version = "0.1.0"
 description = "簡易的なテンプレートエンジン"
 requires-python = ">=3.9"
+dependencies = ["tomli>=1.1; python_version < '3.11'"]
+
+[project.scripts]
+tempylite = "tempylite.cli:main"
 
 [tool.setuptools]
 packages = ["tempylite"]
