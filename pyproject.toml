@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tempylite"
+version = "0.1.0"
+description = "簡易的なテンプレートエンジン"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["tmpl"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
